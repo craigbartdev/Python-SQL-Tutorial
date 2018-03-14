@@ -1,0 +1,27 @@
+this is a runthrough of the mysql with python tutorial on tutorialspoint
+
+first create database in phpmy admin
+go to privileges and add user account to add user with password
+fill in user name and password and host type. user: testuser pw: test123
+
+select all for data and structure and nothing for admin and go.
+this will show up in privileges
+
+pip3 install PyMySQL then import into file with lowercase in db_connect.py 
+enter stuff you need to connect
+
+the create db_create_table.py to create table employee in db
+there will be unknown table warning first time, but after it will just overwrite
+
+now create db_insert_into_table.py and insert statically into sql table
+
+then edit that to be dynamic
+
+create db_update.py and update the ages of all males
+
+create db_read.py and read 
+
+create db_delete.py and delete 21 year olds from db
+
+now you know the basics
+
